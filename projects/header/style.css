@@ -4,10 +4,73 @@
 }
 
 body{
-    
+    font-family: "Montserrat";
 }
 
 .header{
     width: 100%;
     box-sizing: border-box;
 }
+
+.menu__logo{
+    color: #05a88d;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    
+}
+
+.menu__ul{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.menu__link{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.menu__link:hover{
+    color:#05a88d;
+}
+
+.menu{
+    padding: 0 50px;
+    height: 100px;
+    background-color: white;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu_signup{
+    background: none;
+    border: solid #05a88d;
+    color:#05a88d;
+    font-size: 20px;
+    margin: 0 30px;
+    width: 120px;
+    height: 45px;
+}
+.menu_login{
+    background: none;
+    border: none;
+    color:#05a88d;
+    font-size: 20px;
+    margin: 0 30px;
+    
+}
+
+.buttons{
+    justify-content: space-between;
+}
+
